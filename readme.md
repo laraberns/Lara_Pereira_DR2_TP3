@@ -21,3 +21,12 @@ Este projeto contém uma série de exercícios de performance para praticar e te
 5. **Soma dos Dígitos**
    - Calcule a soma dos dígitos em uma string numérica fornecida pelo usuário, verificando se todos os caracteres são de fato numéricos.
    - Exemplo: “123” Resultado: 1+2+3 = 6
+
+### Parte 2: Nível Cobrinha
+
+1. **Calcular Expressão Matemática**
+   - Calcule o resultado de uma expressão matemática básica fornecida como string pelo usuário, ignorando espaços, permitindo apenas caracteres numéricos e os operadores +, -, * e /.
+   - Exemplo: '2 + 3 * 4' Resultado: 14.
+
+2. **Formatar Data**
+   - Implemente uma função que receba uma string representando uma data no formato "dd/mm/aaaa" e retorne a data em um formato textual, por exemplo, "25/12/2024" -> "Vinte e cinco de dezembro de dois mil e vinte e quatro".
