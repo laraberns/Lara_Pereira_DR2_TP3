@@ -30,3 +30,25 @@ Este projeto contém uma série de exercícios de performance para praticar e te
 
 2. **Formatar Data**
    - Implemente uma função que receba uma string representando uma data no formato "dd/mm/aaaa" e retorne a data em um formato textual, por exemplo, "25/12/2024" -> "Vinte e cinco de dezembro de dois mil e vinte e quatro".
+
+### Parte 3: Mini Projetos Nível PYTHON
+
+1. **Mini Projeto 1: Validação e Formatação de Dados em um Sistema de Cadastro**
+   - Crie um programa com funções em Python para solicitar ao usuário que insira os dados listados abaixo e valide os seguintes campos de cadastro com as seguintes regras:
+     - **CPF**: verifique se o CPF possui 11 dígitos e formate-o no padrão "xxx.xxx.xxx-xx".
+     - **E-mail**: verifique se o e-mail possui um formato válido (com "@" e um domínio válido) e normalize-o para minúsculas.
+     - **Telefone**: remova caracteres não numéricos e converta o número de telefone para um número inteiro e uma string formatada como (XX) XXXXX-XXXX ou (XX) XXXX-XXXX e exiba ambos na tela.
+
+2. **Mini Projeto 2: Análise de Dados de Vendas**
+   - Implemente um programa em Python que receba uma lista de transações no formato "ID_do_Produto,Nome_do_Produto,Quantidade,Valor_Total". O programa deve calcular e exibir o valor total das vendas para cada produto.
+   - Crie uma função que retorne o produto mais vendido e o produto que gerou a maior receita total.
+   - Converta os valores totais de vendas para uma nova moeda, dado um fator de conversão fornecido pelo usuário, e exiba os valores convertidos no formato monetário adequado.
+
+3. **Mini Projeto 3: Gerenciamento de Senhas**
+   - Desenvolva uma função que gera senhas aleatórias seguras, atendendo aos critérios: mínimo de 8 caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais.
+   - Implemente uma função que receba uma senha do usuário e verifique se ela atende aos critérios de segurança mencionados. Para cada senha que não atender aos critérios, sugira uma nova senha.
+   - Crie um programa que criptografa uma lista de senhas utilizando uma cifra de substituição (similar à cifra de Cesar) e armazene o resultado. Inclua uma função para descriptografar as senhas quando necessário.
+
+4. **Mini Projeto 4: Processamento de Textos Jurídicos**
+   - Desenvolva um programa que receba o texto completo de um contrato e extraia todas as cláusulas que mencionem valores monetários. Exiba os valores em uma lista separada.
+   - Implemente uma função que, dada uma lista de termos legais, verifique quantas vezes cada termo aparece no contrato e exiba as ocorrências em ordem decrescente de frequência.
